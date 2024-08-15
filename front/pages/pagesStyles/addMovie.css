@@ -1,0 +1,155 @@
+/* Reset CSS para eliminar el estilo predeterminado de Bootstrap */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(70, 70, 70, 0.8)), url('../../public/inicio.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+    z-index: 1000;
+}
+
+.upload-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px; /* Ajustado para reducir el espacio interno */
+    border-radius: 30px; /* Ajustado para que coincida con el nuevo tamaño */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    max-width: 1200px; /* Ajustado para reducir el tamaño máximo */
+    width: 100%;
+    display: flex;
+    height: 60%; /* Ajustado para ocupar menos espacio vertical */
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; /* Ajustado para reducir el espacio entre elementos */
+}
+
+.upload-title {
+    text-align: left;
+    color: white;
+    flex: 1;
+}
+
+.upload-title h2 {
+    margin: 0;
+    font-size: 2.5rem; /* Ajustado para reducir el tamaño del texto */
+    line-height: 1.2;
+}
+
+.upload-title img {
+    margin-top: 20px;
+    width: 80px; /* Ajustado para reducir el tamaño de la imagen */
+}
+
+.inputs input {
+    background-color: transparent;
+    border-bottom: 2px solid;
+}
+
+.form {
+    height: 60%; /* Ajustado para ocupar menos espacio vertical */
+}
+
+form.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    width: 100%;
+}
+
+.col-md-4, .col-md-6, .col-md-3, .col-12 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.5rem; /* Ajustado para reducir el tamaño del texto */
+}
+
+.fa-cloud-arrow-up {
+    font-size: 3rem; /* Ajustado para reducir el tamaño del ícono */
+    padding: 1rem; /* Ajustado para reducir el padding */
+}
+
+.form-control, .form-select {
+    padding: 8px; /* Ajustado para reducir el padding */
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.form-control[type="number"]::-webkit-outer-spin-button,
+.form-control[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-check-label {
+    font-weight: bold;
+    color: white;
+}
+
+.submit-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em; /* Ajustado para reducir el tamaño del texto */
+    padding: 10px; /* Ajustado para reducir el padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .upload-box {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .upload-title h2 {
+        font-size: 1.8em; /* Ajustado para reducir el tamaño del texto */
+    }
+
+    .submit-btn {
+        font-size: 1em; /* Ajustado para reducir el tamaño del texto */
+    }
+}
+
+.disabled {
+    display: none;
+}
+
+.enabled {
+    display: block;
+}

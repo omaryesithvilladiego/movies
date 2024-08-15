@@ -1,0 +1,131 @@
+
+body, * {
+  margin: 0;
+  padding: 0;
+}
+
+
+.slide-global { 
+    position: relative;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 70vh;
+    overflow: visible;
+    width: 85%;
+
+}
+
+.slide-li-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 95vh;
+    border-radius: 2rem;
+    overflow: visible;
+   
+}
+
+
+
+
+
+
+.glide__slides {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    overflow: visible;
+}
+
+
+
+.glide__arrow {
+  background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .glide__arrow--left {
+    left: 10px;
+    font-size: 6rem;
+  }
+
+  .glide__arrow--right {
+    right: 10px;
+    font-size: 6rem;
+  }
+
+
+  .title-styles {
+    font-family: "Jost", sans-serif;
+    color: white;
+    font-size: 3.8vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+    line-height: .77; /* Reduce el espacio entre líneas */
+    letter-spacing: -0.10px; /* Ajusta el espaciado entre letras */
+  }
+  
+
+  .genre-style {
+    font-family: "Jost", sans-serif;
+    height: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color:  rgba(244,213,48,255);
+    color: white;
+    line-height: 2rem;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+
+
+  }
+
+  .container-info-home {
+    display: flex;
+    width: 25rem;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 17rem;
+    left: -3rem;
+    box-shadow: 1px solid black;
+    
+  }
+ 
+
+  .button-styles {
+    font-family: "Mukta", sans-serif;
+    padding: .5rem;
+    background-color: rgba(244,213,48,255);
+    font-size: 1rem;
+    color: color;
+    border-radius: .5rem;
+    width: fit-content;
+    border: none;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+cursor: pointer;
+  }
+
+  .background-add {
+    background: linear-gradient(rgba(56, 57, 57, 0.627), rgba(55, 56, 55, 0.622)
+
+), url('../public/IMG_1538.PNG');
+  }
+
+  .home-movies {
+    width: 95%;
+    margin: 0 auto;
+    overflow: visible;
+  }
+
+ 

@@ -1,0 +1,81 @@
+/* <div class="movie-details">
+<div class="container-title">
+  <h1 id="movie-title"></h1>
+
+</div>
+<div class="container-content">
+  <!-- <img id="movie-poster" src="" alt="Movie Poster" style="width: 300px; height: auto;"> -->
+  <p><strong>Director:</strong> <span id="movie-director"></span></p>
+  <p><strong>Genre:</strong> <span id="movie-genre"></span></p>
+  <p><strong>Year:</strong> <span id="movie-year"></span></p>
+  <p><strong>Duration:</strong> <span id="movie-duration"></span></p>
+  <p><strong>Rating:</strong> <span id="movie-rate"></span></p>
+</div>
+
+</div> */
+
+.container-title h1,
+.container-title p,
+.container-content p,
+#movie-director,
+#movie-genre,
+#movie-year,
+#movie-duration,
+#movie-rate {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ajusta el color y la intensidad según tus preferencias */
+}
+
+
+
+.movie-details {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+    
+}
+
+.container-title {
+    width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+}
+
+.container-title h1 {
+    font-size:5vw;
+    color: white;
+    text-transform: uppercase;
+    text-wrap: wrap;
+    line-height: .85;    
+
+}
+
+.container-title p {
+   color: rgba(244,213,48,255);
+   font-size: 1.5rem;
+   font-size: bold;
+}
+.container-content {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+#movie-director {
+    color: rgba(244,213,48,255);
+}

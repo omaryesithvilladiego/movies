@@ -1,0 +1,78 @@
+.about-title,
+.about-container-title p,
+.about-container-content p,
+.about-director,
+.about-genre,
+.about-year,
+.about-duration,
+.about-rate {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ajusta el color y la intensidad según tus preferencias */
+}
+
+.about-details {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+}
+
+.about-container-title {
+  width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Jost", sans-serif;
+}
+
+.about-title {
+  font-size: 5vw;
+  color: white;
+  text-transform: uppercase;
+  text-wrap: wrap;
+  line-height: .85;
+}
+
+.about-container-title p {
+  color: rgba(244, 213, 48, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.about-container-content {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 2rem;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-director {
+  color: rgba(244, 213, 48, 255);
+}
+
+.name-logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.name-logo h2  {
+    font-size: 3.5vw;
+    color: rgba(244,213,48,255);
+    font-family: "Jost", sans-serif;
+}
+
+.about-container-content h2 {
+    color: rgba(244,213,48,255);
+}
