@@ -5,7 +5,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "start": "live-server",
-    "dev": "npm run build--watch & npm start",
+    "dev": "npm run build--watch",
     "build--watch": "webpack --watch",
     "build":"webpack"
   },
